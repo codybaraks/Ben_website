@@ -1,0 +1,5 @@
+<div class="form-group">
+    <label for="exampleInputcountry1">country address</label>
+    <input type="country" class="form-control" id="exampleInputcountry1" aria-describedby="countryHelp" placeholder="Enter country">
+    <small id="countryHelp" class="form-text text-muted">We'll never share your country with anyone else.</small>
+  </div>
