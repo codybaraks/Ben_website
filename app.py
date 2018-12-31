@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for,flash, session
 import mysql.connector as connector
 
-db = connector.connect(host="localhost", user="Admin", passwd="root", database="register")
+db = connector.connect(host="localhost", user="root", passwd="root", database="register")
 
 app = Flask(__name__,template_folder='templates')
 app.secret_key = "fsggrsgsrgrg"
